@@ -1,14 +1,17 @@
-AE2Blend V1.0
+#AE2Blend V1.0
+
 AE2Blend is an addon for Blender 2.7x that lets users copy keyframe and transform data from Adobe After Effects, and apply it directly to new or preexisting objects in Blender.
 
-How to use
+#How to use
+
 Once AE2Blend.py is downloaded, installed and enabled, the panel can be found in the Animation tab in Blender's 3D View.
 
 Inside After Effects the user selects one or more transform channels (position, scale, rotation and orientation), and copies them to the clipboard by holding control or command and pressing "c", or Edit > Copy.
 
 Then using the AE2Blend panel the user simply pastes the transform data to a selected object using the "Paste Keyframes" button, or uses one of the "Create..." buttons to create a new object with the transform data.
 
-Settings
+#Settings
+
 [Scale]
 
 The value position and scale keyframes are divided by. The coordinate system in After Effects is based on pixels, so values can often be in the hundreds to thousands. A higher Scale value creates smaller position and scale values.
@@ -45,7 +48,8 @@ Creates a new camera object parented to an empty object which has the keyframe d
 
 Pastes all After Effects keyframe data to all currently selected objects in Blender.
 
-Tips and Tricks
+#Tips and Tricks
+
 Users may select as many or as few transform channels from After Effects as they want. AE2Blend will only apply whichever transforms are copied from After Effects.
 
 Both 2D and 3D data can be imported into Blender. 2D data will simply remain flat along Blender's Y axis.
