@@ -1,5 +1,7 @@
 AE2Blend V1.1 will soon be available on the Blender Market.
 
+Camera Tracking Demo: https://www.youtube.com/watch?v=zzGa4rD46CQ
+
 #AE2Blend V1.0
 
 AE2Blend is an addon for Blender 2.7x that lets users copy keyframe and transform data from Adobe After Effects, and apply it directly to new or preexisting objects in Blender.
